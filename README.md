@@ -8,5 +8,5 @@ This weather app uses the Weather Underground API for functionality, Bootstrap a
 
 User can click a UI button to access a modal, in which the desired city and state can be entered. Various pieces of weather data for the selected location is painted to the UI, and that information persists in local storage until a new city/state combination is chosen by the user.
 
-WeatherUnderground API Key
-This app requires an WeatherUnderground API key, which must be entered into the value field of this.apiKey in the constructor function of the Weather class in weather.js. Key that is displayed in previous iterations of the app in progress was for testing purposes only, and will not work if used in production app.
+## WeatherUnderground API Key
+This app requires an WeatherUnderground API key, which must be entered into the value field of this.apiKey in the constructor function of the Weather class in weather.js. Key that is displayed in previous iterations of the app in progress was for testing purposes only, and will not work if used in production app. TOS of the WeatherUnderground API require use of its logo and copyright statement.
