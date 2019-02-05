@@ -17,11 +17,11 @@
         <h3 id="w-string"></h3>
         <img id="w-icon">
         <ul class="list-group mt-3" id="w-details">
+          <li class="list-group-item" id="w-feels-like"></li>
+          <li class="list-group-item" id="w-wind"></li>
           <li class="list-group-item" id="w-humidity"></li>
           <li class="list-group-item" id="w-dewpoint"></li>
           <li class="list-group-item" id="w-pressure"></li>
-          <li class="list-group-item" id="w-feels-like"></li>
-          <li class="list-group-item" id="w-wind"></li>
         </ul>
         <hr>
         <!-- Button trigger modal -->
@@ -37,33 +37,33 @@
 
   <!-- Modal -->
   <div class="modal fade" id="locModal" tabindex="-1" role="dialog" aria-labelledby="locModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="locModalLabel">Choose Location</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form id="w-form">
-              <div class="form-group">
-                <label for="city">City</label>
-                <input type="text" id="city" class="form-control">
-              </div>
-              <div class="form-group">
-                <label for="city">State</label>
-                <input type="text" id="state" class="form-control">
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" id="w-change-btn"class="btn btn-primary">Save changes</button>
-          </div>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="locModalLabel">Choose Location</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="w-form">
+            <div class="form-group">
+              <label for="city">City</label>
+              <input type="text" id="city" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="city">State</label>
+              <input type="text" id="state" class="form-control">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" id="w-change-btn"class="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
+  </div>
 
 
 
